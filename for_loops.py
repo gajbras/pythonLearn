@@ -11,9 +11,9 @@ for _ in elements:
 
 ####################################################################################
 students = [
-    {"name": "Michal", "grade": 90},
-    {"name": "Tom", "grade": 78},
-    {"name": "Petr", "grade": 100}
+    {"name": "Michal", "grade": 78},
+    {"name": "Tom", "grade": 100},
+    {"name": "Petr", "grade": 90}
 ]
 
 for student in students:
