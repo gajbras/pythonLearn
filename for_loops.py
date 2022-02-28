@@ -32,11 +32,11 @@ for name, age in friends:
 
 ######### TEST PRACE POHOVOR ##############
 
-list = [1, 2, 3, 4, 5]
+list2 = [1, 2, 3, 4, 5]
 
 #Print list in reversed order
 
-for i in reversed(list):
+for i in reversed(list2):
     print(i)
 
 ########################How to convert a list of integers into a single integer in Python##############
