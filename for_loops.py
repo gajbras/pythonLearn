@@ -29,13 +29,14 @@ for name, age in friends:
     print(f"{name} is {age} years old")
 
 
+
 ######### TEST PRACE POHOVOR ##############
 
-list2 = [0, 1, 2, 3, 4, 5]
+list2 = [1, 2, 3, 4, 5]
 
 for x in list2:
-    print(x-1)
+    y = x - 1
+    z = y - 2
+    val = y, z
 
-
-
-
+print(val)
