@@ -26,3 +26,15 @@ while user_input != "q":
         print("Hello")
     # Now we must ask the user for their input again—otherwise we would be in an infinite loop!
     user_input = input("Enter q or p: ")
+
+
+i = 0
+while i < 10:
+    # do stuff and manipulate `i` as much as you like
+    if i==5:
+        i+=3
+
+    print(i)
+
+    # don't forget to increment `i` manually
+    i += 1

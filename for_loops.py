@@ -34,4 +34,8 @@ for name, age in friends:
 list2 = [0, 1, 2, 3, 4, 5]
 
 for x in list2:
-    print(x//2)
+    print(x-1)
+
+
+
+
