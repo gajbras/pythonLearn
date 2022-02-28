@@ -27,3 +27,11 @@ friends = [("Petr", 30), ("Jirka", 31), ("Ivo", 34)]
 
 for name, age in friends:
     print(f"{name} is {age} years old")
+
+
+######### TEST PRACE POHOVOR ##############
+
+list2 = [0, 1, 2, 3, 4, 5]
+
+for x in list2:
+    print(x//2)
