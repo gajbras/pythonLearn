@@ -41,5 +41,11 @@ for x in list2:
 
 print(val)
 
+numbers2 = list(input("Enter some numbers: "))
+for i in reversed(numbers2):
+    print(i)
 
-this is the test
+numbers3 = list(input("Enter some numbers: "))
+print(numbers3)
+numbers3.reverse()
+print(numbers3)
