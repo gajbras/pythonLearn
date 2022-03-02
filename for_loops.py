@@ -28,7 +28,15 @@ friends = [("Petr", 30), ("Jirka", 31), ("Ivo", 34)]
 for name, age in friends:
     print(f"{name} is {age} years old")
 
+###################### How would you iterate over a dictionary's keys and values? ##################
 
+my_friends = {
+    'Jose': 6,
+    'Rolf': 12,
+    'Anne': 6
+}
+for name, days in my_friends.items():
+    print(f"I last saw {name} {days} ago")
 
 ######### TEST PRACE POHOVOR ##############
 
