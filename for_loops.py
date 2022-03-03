@@ -72,3 +72,26 @@ numbers3 = list(input("Enter some numbers: "))
 print(numbers3)
 numbers3.reverse()
 print(numbers3)
+
+
+
+numbers = list(input('Enter some numbers:'))
+print(numbers)
+
+def swapNumbers(numbers):
+
+    first_item = 0
+    last_item = len(numbers) - 1
+    loops = len(numbers) // 2
+
+    for i in range(loops):
+        temp = numbers[first_item]
+        numbers[first_item] = numbers[last_item]
+        numbers[last_item] = temp
+        first_item += 1
+        last_item -= 1
+
+    return numbers
+
+print(swapNumbers(numbers))
+
